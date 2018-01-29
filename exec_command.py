@@ -2,7 +2,7 @@
 # It has not been tested on discord.py "rewrite"
 import discord
 if discord.version_info.releaselevel == "alpha":
-    print('This was made for discord.py "async".\nIt has not been tested on discord.py "rewrite"')
+    print('This was made for discord.py "async".\nIt should still work on discord.py "rewrite", but will just need some small edits\nIt has not been tested on discord.py "rewrite"\')
 
 import asyncio
 import eval_ast_gen
