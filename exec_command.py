@@ -7,6 +7,8 @@ if discord.version_info.releaselevel == "alpha":
 import asyncio
 import eval_ast_gen
 
+__author__ = "Zylanx"
+
 
 async def commandEval(self, message: discord.Message, commandText: str):        
     commandText = commandText.strip("\n")

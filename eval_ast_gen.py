@@ -6,6 +6,8 @@ import sys
 
 from contextlib import redirect_stdout
 
+__author__ = "Zylanx"
+
 
 class OutputExprRewriter(ast.NodeTransformer):
     def visit_FunctionDef(self, node):
