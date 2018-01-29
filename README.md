@@ -124,7 +124,7 @@ It is where almost all of the action is going on.
 This contains the implementation of the exec command.  
 It is a slightly edited version of the one that my bot is currently using.  
 
-All of the code is pretty much uncommented. It should be at least partially possible to understand the code without them.  
+All of the code is pretty much uncommented. It should still be at least partially possible to understand the code without them.  
 
 ## How To Add To Your Bot
 The file "exec_command.py" contains the command  
