@@ -1,4 +1,5 @@
 # This was made for discord.py "async".
+# It should still work on discord.py "rewrite", but will just need some small edits
 # It has not been tested on discord.py "rewrite"
 import discord
 if discord.version_info.releaselevel == "alpha":
