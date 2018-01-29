@@ -131,7 +131,8 @@ The file "exec_command.py" contains the command
 Do note that it is not in a form that you can just "load a cog"  
 You will need to edit it so that your bot is able to call and use the command  
 > Do note that this was designed for the d.py "async" branch  
-> I have not yet tested it on d.py "rewrite"
+> I have not tested the provided command implementation on d.py "rewrite"
+> **The actual execution and AST generation on the otherhand is generalised and should work on either**
 
 ## Bugs
 ### Exec's
