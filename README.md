@@ -112,7 +112,7 @@ This will wait until the specified user posts a message in the given channel.
 It will then send another message that contains what the user just sent.  
 **This is not possible (so easily at least) in normal exec commands. This command is different**
 ```py
-bot.send_message(channel, bot.wait_for_message(channel=channel, author=User).content)
+bot.send_message(channel, bot.wait_for_message(channel=channel, author=author).content)
 ```
 
 ## Project Layout
